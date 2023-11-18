@@ -1,6 +1,6 @@
 -- drop database
-DROP DATABASE IF EXISTS ecommerce_db;
+DROP DATABASE IF EXISTS starry_db;
 
 -- create database
-CREATE DATABASE ecommerce_db;
+CREATE DATABASE starry_db;
 
