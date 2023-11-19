@@ -34,9 +34,13 @@
 
   ### ![overview](./aurora-lights/branding/1.png)
 
-`STARRY CELLAR STUFF` is an e-commerce site that utilizes an[Express.js](https://www.npmjs.com/package/inquirer) RESTful API which uses [Sequelize](https://www.npmjs.com/package/sequelize) ORM to handle data storage and retriveal.
+`STARRY CELLAR STUFF` is an e-commerce site that utilizes an [Express.js](https://www.npmjs.com/package/inquirer) RESTful API which uses [Sequelize](https://www.npmjs.com/package/sequelize) ORM to handle data storage and retriveal.
 * [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect `STARRY CELLAR STUFF's` Express RESTful API to a MySQL *database*.
 * [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data.
+
+### ![borea-list](./aurora-lights/branding/11.png)
+![borea-list](./aurora-lights/branding/borea-list.png)
+
 
 #
 
