@@ -1,6 +1,7 @@
 const express = require('express');
 const routes = require('./lib/routes');
-// import sequelize connection
+//sequelize connection
+const sequelize = require('./lib/config/connection');
 
 const twinkle = express();
 const PORT = process.env.PORT || 3001;
@@ -10,7 +11,10 @@ twinkle.use(express.urlencoded({ extended: true }));
 
 twinkle.use(routes);
 
-// sync sequelize models to the database, then turn on the server
-twinkle.listen(PORT, () => {
-  console.log(`App listening on port ${PORT}!`);
+//sequelize models synced to database
+sequelize.sync({ force: false }).then( () =>{
+  //start server
+  twinkle.listen(PORT, () => console.log(`App listening on port ${PORT}!`));
 });
+  
+  
