@@ -14,7 +14,7 @@
 [![Insomnia Badge](https://img.shields.io/badge/insomnia-grey.svg?&logo=Insomnia&logoColor=white)](https://canva.com/) 
 
 [![Canva Badge](https://img.shields.io/badge/canva-lavender.svg?&logo=Canva&logoColor=white)](https://canva.com/) 
-[![Canva Badge](https://img.shields.io/badge/view:in-darkmode-purple.svg?&logo=Github&logoColor=white)](https://canva.com/) 
+[![View Badge](https://img.shields.io/badge/view:in-darkmode-black.svg?&logo=Github&logoColor=white)](https://canva.com/) 
 
 
 ### ![table-of-contents](./aurora-lights/branding/toc.png)
