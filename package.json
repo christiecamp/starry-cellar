@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "watch": "nodemon server.js",
-    "seed": "node seeds/indes.js"
+    "seed": "node ./lib/seeds/index.js"
   },
   "repository": {
     "type": "git",
