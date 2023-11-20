@@ -14,6 +14,7 @@
 [![Insomnia Badge](https://img.shields.io/badge/insomnia-grey.svg?&logo=Insomnia&logoColor=white)](https://canva.com/) 
 
 [![Canva Badge](https://img.shields.io/badge/canva-lavender.svg?&logo=Canva&logoColor=white)](https://canva.com/) 
+[![Canva Badge](https://img.shields.io/badge/view:in-darkmode-purple.svg?&logo=Github&logoColor=white)](https://canva.com/) 
 
 
 ### ![table-of-contents](./aurora-lights/branding/toc.png)
@@ -38,8 +39,32 @@
 * [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect `STARRY CELLAR STUFF's` Express RESTful API to a MySQL *database*.
 * [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data.
 
+### ![installation](./aurora-lights/branding/2.png)
+
+The application is invoked using the following commands:
+
+*Clone the repository in your local development enviorment.*
+
+```
+git clone https://github.com/christiecamp/starry-cellar.git
+```
+
+**Update *.env* with your information**
+
+
+
+#
+
+### ![usage](./aurora-lights/branding/3.png)
+
+**INSTRUCTIONS:**
+
+#
+
 ### ![borea-list](./aurora-lights/branding/11.png)
-![borea-list](./aurora-lights/branding/borea-list.png)
+<p align="center">
+  <img src="./aurora-lights/branding/borea-list.png"/>
+</p>
 
 
 #
