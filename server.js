@@ -14,7 +14,7 @@ twinkle.use(routes);
 //sequelize models synced to database
 sequelize.sync({ force: false }).then( () =>{
   //start server
-  twinkle.listen(PORT, () => console.log(`App listening on port ${PORT}!`));
+  twinkle.listen(PORT, () => console.log(`App listening on port http://localhost:${PORT}!`));
 });
   
   
