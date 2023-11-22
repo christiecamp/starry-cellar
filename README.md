@@ -205,11 +205,13 @@ Here's a list of technologies used:
 ##### [*github repo*](https://github.com/christiecamp/starry-cellar)
 
 ##### **video demos**:
-  * ##### [*category demo*]()
+  * ##### [*full walkthrough*](https://drive.google.com/file/d/1g4kHC71UIPWrqOLdvLXGxl3Hohcrk7Vx/view)
 
-  * ##### [*product demo*]() 
+  * ##### [*categories*]()
 
-  *  ##### [*tag demo*]()
+  * ##### [*products*]() 
+
+  * ##### [*tags*]()
 
 ### ![connect](./aurora-lights/branding/7.png)
 
