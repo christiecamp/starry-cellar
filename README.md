@@ -102,7 +102,8 @@ nodemon server
 
 
 ### ![screenshot](./aurora-lights/branding/12.png)
-
+        
+        
 ##### *Screenshot demonstrates testing with Insomnia*
 
 <p align="center">
@@ -114,15 +115,20 @@ nodemon server
 
 ##### **categories**
 
-<p align="center">
+<p align="left">
 <img src="./aurora-lights/demos/categories.gif"/>
 </p>
 
 ##### **products**
 
+<p align="left">
+<img src="./aurora-lights/demos/products.gif"/>
+</p>
+
+
 ##### **tags**
 
-<p align="center">
+<p align="left">
 <img src="./aurora-lights/demos/tags.gif"/>
 </p>
 
@@ -217,7 +223,7 @@ Here's a list of technologies used:
 
   * ##### [*categories*](https://drive.google.com/file/d/1HW-IlwHodN4TjmZKsEg3YV_62NnA-n8R/view)
 
-  * ##### [*products*]() 
+  * ##### [*products*](https://drive.google.com/file/d/1H2kOvExLJXJf2mxxH1CXzl1H49B9S1CJ/view) 
 
   * ##### [*tags*](https://drive.google.com/file/d/1O_VBx2V3qEoQv9pL0cAXOqN_yIqCZX2E/view)
 
