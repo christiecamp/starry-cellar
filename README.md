@@ -85,6 +85,8 @@ npm run seed
 nodemon server
 ```
 
+#
+
 ### ![usage](./aurora-lights/branding/3.png)
 
 **INSTRUCTIONS:**
@@ -132,8 +134,7 @@ nodemon server
 <img src="./aurora-lights/demos/tags.gif"/>
 </p>
 
-
-<!-- ![demo](./aurora-lights/demos/demo.gif) -->
+#
 
 ### ![testing](./aurora-lights/branding/8.png)
 
@@ -189,6 +190,7 @@ http://localhost:3013/api/tags/6
 http://localhost:3013/api/categories/8
 ```
 
+#
 
 ### ![sources](./aurora-lights/branding/4.png)
 
@@ -236,5 +238,5 @@ Here's a list of technologies used:
 </a>
 
 <p align="center">
-<a href="https://www.christiecamp.com"><img height= 200px src ="./aurora-lights/branding/starry-globe.png"></a>
+<a href="https://www.christiecamp.com"><img height= 170px src ="./aurora-lights/branding/starry-globe.png"></a>
 </p>
