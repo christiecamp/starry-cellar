@@ -114,6 +114,10 @@ nodemon server
 
 ##### **categories**
 
+<p align="center">
+<img src="./aurora-lights/demos/categories.gif"/>
+</p>
+
 ##### **products**
 
 ##### **tags**
@@ -207,7 +211,7 @@ Here's a list of technologies used:
 ##### **video demos**:
   * ##### [*full walkthrough*](https://drive.google.com/file/d/1g4kHC71UIPWrqOLdvLXGxl3Hohcrk7Vx/view)
 
-  * ##### [*categories*]()
+  * ##### [*categories*](https://drive.google.com/file/d/1HW-IlwHodN4TjmZKsEg3YV_62NnA-n8R/view)
 
   * ##### [*products*]() 
 
