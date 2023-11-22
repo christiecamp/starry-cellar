@@ -93,7 +93,7 @@ nodemon server
 
 2. Interact with STARRY CELLAR STUFF's back end with [Insomnia](https://www.npmjs.com/package/inquirer/v/8.2.4) by testing the below:
       * GET all categories, products, tags
-      * GET category, product, tag by 'id'
+      * GET category, product, tag by id
       * CREATE category, product, tag
       * UPDATE category, product, tag
       * DELETE category, product, tag
@@ -139,11 +139,11 @@ nodemon server
 
 **TESTING WITH INSOMNIA:**
 
-There are different tools available that can test reading/writing operations in a web browser - in this application we use [Insomnia](https://insomnia.rest/), a REST client that makes it easy to send HTTP requests to an API and view response details. 
+There are different tools available that can test reading/writing operations in a web browser - in this application we use [Insomnia](https://insomnia.rest/), a *REST client* that makes it easy to send **HTTP requests** to an API and view response details. 
 
 1. After installing Insomnia, open a new document.
 
-2. Interact with STARRY CELLAR STUFF's back end  by testing the below commands:
+2. Interact with `STARRY CELLAR STUFF's` back end  by testing the below commands:
 
 ##### **GET** all categories, products, tags
 ```json
@@ -186,7 +186,7 @@ http://localhost:3013/api/tags/6
 ```
 ##### **DELETE** category
 ```json
-http://localhost:3013/api/categories/1
+http://localhost:3013/api/categories/8
 ```
 
 
@@ -196,7 +196,7 @@ Here's a list of technologies used:
 
 1. [Node.js](https://nodejs.org/en) - is an open-source, cross-platform JavaScript runtime environment.
 
-2. [Express.js](https://www.npmjs.com/package/inquirer/v/8.2.4) - the NPM package that provides an easy way to capture user input in your Node. js command line interface applications.
+2. [Express.js]((https://expressjs.com)) - a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 
 3. [MySQL2](https://www.npmjs.com/package/mysql2) - MySQL is a relational database management system based on SQL – Structured Query Language.
 
@@ -235,7 +235,6 @@ Here's a list of technologies used:
 <img src="https://img.shields.io/badge/gmail-lightblue.svg?&logo=Gmail&logoColor=white" />
 </a>
 
-
 <p align="center">
-  <img height="200px" src="./aurora-lights/branding/starry-globe.png"/>
+<a href="https://www.christiecamp.com"><img height= 200px src ="./aurora-lights/branding/starry-globe.png"></a>
 </p>
