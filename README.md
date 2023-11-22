@@ -122,6 +122,10 @@ nodemon server
 
 ##### **tags**
 
+<p align="center">
+<img src="./aurora-lights/demos/tags.gif"/>
+</p>
+
 
 <!-- ![demo](./aurora-lights/demos/demo.gif) -->
 
@@ -215,7 +219,7 @@ Here's a list of technologies used:
 
   * ##### [*products*]() 
 
-  * ##### [*tags*]()
+  * ##### [*tags*](https://drive.google.com/file/d/1O_VBx2V3qEoQv9pL0cAXOqN_yIqCZX2E/view)
 
 ### ![connect](./aurora-lights/branding/7.png)
 
