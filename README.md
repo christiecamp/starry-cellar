@@ -5,16 +5,15 @@
 [![License: mit](https://img.shields.io/badge/license-mit-lightblue?)](https://opensource.org/licenses/MIT)
 [![Node.js Badge](https://img.shields.io/badge/node-blue?logo=nodedotjs&logoColor=fff&style=flat)](https://nodejs.org/en)
 [![MySql Badge](https://img.shields.io/badge/mysql-blue.svg?&logo=Mysql&logoColor=white)](https://www.mysql.com)
-
 [![Express.js Badge](https://img.shields.io/badge/express-lightgreen.svg?&logo=Express&logoColor=white)](https://expressjs.com/)
 [![Sequelize Badge](https://img.shields.io/badge/sequelize-darkgreen.svg?&logo=Sequelize&logoColor=white)](https://canva.com)
 
 [![Dotenv Badge](https://img.shields.io/badge/dotenv-lightgrey.svg?&logo=Dotenv&logoColor=white)](https://canva.com)
 [![Nodemon Badge](https://img.shields.io/badge/nodemon-lightgrey.svg?&logo=Nodemon&logoColor=white)](https://www.npmjs.com/package/nodemon)
 [![Insomnia Badge](https://img.shields.io/badge/insomnia-grey.svg?&logo=Insomnia&logoColor=white)](https://canva.com/) 
-
 [![Canva Badge](https://img.shields.io/badge/canva-lavender.svg?&logo=Canva&logoColor=white)](https://canva.com/) 
-[![View Badge](https://img.shields.io/badge/view:in-darkmode-black.svg?&logo=Github&logoColor=white)](https://canva.com/) 
+
+[![View Badge](https://img.shields.io/badge/view-darkmode-black.svg?&logo=Github&logoColor=white)](https://canva.com/) 
 
 
 ### ![table-of-contents](./aurora-lights/branding/toc.png)
@@ -60,7 +59,7 @@
 
 The application is invoked using the following commands:
 
-*Clone the repository in your local development enviorment.*
+*Clone the repository in your local development enviornment.*
 
 ```
 git clone https://github.com/christiecamp/starry-cellar.git
@@ -101,20 +100,74 @@ nodemon server
       * UPDATE category, product, tag
       * DELETE category, product, tag
 
-    > view [demo vides](#demo) for assistance
+  > view [demo videos](#demo) and [testing](#testing) instructions for assistance 
 
-
-
-#
 
 ### ![screenshot](./aurora-lights/branding/12.png)
-![screenshot](./aurora-lights/demos/ss.png)
+
+<p align="center">
+<img src="./aurora-lights/demos/ss.png"/>
+</p>
+
 
 ### ![demo](./aurora-lights/branding/13.png)
 ![demo](./aurora-lights/demos/demo.gif)
 
 ### ![testing](./aurora-lights/branding/8.png)
-![testing](./aurora-lights/demos/testing.png)
+
+**TESTING WITH INSOMNIA:**
+
+There are different tools available that can test reading/writing operations in a web browser - in this application we use [Insomnia](https://insomnia.rest/), a REST client that makes it easy to send HTTP requests to an API and view response details. 
+
+1. After installing Insomnia, open a new document.
+
+2. Interact with STARRY CELLAR STUFF's back end  by testing the below commands:
+
+#### **GET** all categories, products, tags
+```json
+http://localhost:3013/api/categories
+```
+```json
+http://localhost:3013/api/tags
+```
+```json
+http://localhost:3013/api/products
+```
+
+
+#### **GET** category by *id*
+```json
+http://localhost:3013/api/categories/1
+```
+
+#### **CREATE** product
+```json
+http://localhost:3013/api/products/
+```
+```json
+{
+	"product_name": "",
+	"price": 1.00,
+	"stock": 1,
+	"tag_id": [1, 2, 3]
+}
+```
+
+#### **UPDATE** tag
+```json
+http://localhost:3013/api/tags/6
+```
+```json
+{
+  "tag_name": ""
+}
+```
+#### **DELETE** category
+```json
+http://localhost:3013/api/categories/1
+```
+
+#
 
 ### ![sources](./aurora-lights/branding/4.png)
 
@@ -134,17 +187,19 @@ Here's a list of technologies used:
 
 7. [Insomnia](https://insomnia.rest/) - an open source desktop application that assists in designing, debugging, and testing APIs (specifically in this instance, HTTP-based RESTful APIs).
 
+#
 
 ### ![license](./aurora-lights/branding/5.png)
 
-[MIT License](./LICENSE)
+[mit license](./LICENSE)
 
+#
 
 ### ![links](./aurora-lights/branding/6.png)
 
-[GitHub Repository](https://github.com/christiecamp/starry-cellar)
+[*github repo*](https://github.com/christiecamp/starry-cellar)
 
-[Video Demo]()
+[*video demos*]()
 
 #
 
@@ -153,10 +208,10 @@ Here's a list of technologies used:
 [![Github Badge](https://img.shields.io/badge/christiecamp-purple.svg?&logo=Github&logoColor=white)](https://github.com/christiecamp/bear-taker)
 
 <a href="mailto:christiecamphoto@gmail.com">
-<img src="https://img.shields.io/badge/gmail-pink.svg?&logo=Gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/gmail-lightblue.svg?&logo=Gmail&logoColor=white" />
 </a>
 
 
 <p align="center">
-  <img src="./aurora-lights/branding/coming-soon.png"/>
+  <img height="200px" src="./aurora-lights/branding/starry-globe.png"/>
 </p>
