@@ -59,14 +59,14 @@
 
 The application is invoked using the following commands:
 
-*Clone the repository in your local development enviornment.*
+##### *Clone the repository in your local development enviornment.*
 
 ```
 git clone https://github.com/christiecamp/starry-cellar.git
 ```
-**Update *.env* with your information**
+##### **Update *.env* with your information**
 
-*Navigate to the command line and input:*
+##### *Navigate to the command line and input:*
 
 ```javascript
 npm i :: express, mysql2, dotenv --save, sequelize, -g nodemon --save-dev,
@@ -85,8 +85,6 @@ npm run seed
 nodemon server
 ```
 
-#
-
 ### ![usage](./aurora-lights/branding/3.png)
 
 **INSTRUCTIONS:**
@@ -100,10 +98,12 @@ nodemon server
       * UPDATE category, product, tag
       * DELETE category, product, tag
 
-  > view [demo videos](#demo) and [testing](#testing) instructions for assistance 
+      ##### view [demo videos](#demo) and [testing](#testing) 
 
 
 ### ![screenshot](./aurora-lights/branding/12.png)
+
+##### *Screenshot demonstrates testing with Insomnia*
 
 <p align="center">
 <img src="./aurora-lights/demos/ss.png"/>
@@ -111,7 +111,15 @@ nodemon server
 
 
 ### ![demo](./aurora-lights/branding/13.png)
-![demo](./aurora-lights/demos/demo.gif)
+
+##### **categories**
+
+##### **products**
+
+##### **tags**
+
+
+<!-- ![demo](./aurora-lights/demos/demo.gif) -->
 
 ### ![testing](./aurora-lights/branding/8.png)
 
@@ -123,7 +131,7 @@ There are different tools available that can test reading/writing operations in 
 
 2. Interact with STARRY CELLAR STUFF's back end  by testing the below commands:
 
-#### **GET** all categories, products, tags
+##### **GET** all categories, products, tags
 ```json
 http://localhost:3013/api/categories
 ```
@@ -135,12 +143,12 @@ http://localhost:3013/api/products
 ```
 
 
-#### **GET** category by *id*
+##### **GET** category by *id*
 ```json
 http://localhost:3013/api/categories/1
 ```
 
-#### **CREATE** product
+##### **CREATE** product
 ```json
 http://localhost:3013/api/products/
 ```
@@ -153,7 +161,7 @@ http://localhost:3013/api/products/
 }
 ```
 
-#### **UPDATE** tag
+##### **UPDATE** tag
 ```json
 http://localhost:3013/api/tags/6
 ```
@@ -162,12 +170,11 @@ http://localhost:3013/api/tags/6
   "tag_name": ""
 }
 ```
-#### **DELETE** category
+##### **DELETE** category
 ```json
 http://localhost:3013/api/categories/1
 ```
 
-#
 
 ### ![sources](./aurora-lights/branding/4.png)
 
@@ -187,21 +194,22 @@ Here's a list of technologies used:
 
 7. [Insomnia](https://insomnia.rest/) - an open source desktop application that assists in designing, debugging, and testing APIs (specifically in this instance, HTTP-based RESTful APIs).
 
-#
 
 ### ![license](./aurora-lights/branding/5.png)
 
-[mit license](./LICENSE)
+##### [mit license](./LICENSE)
 
-#
 
 ### ![links](./aurora-lights/branding/6.png)
 
-[*github repo*](https://github.com/christiecamp/starry-cellar)
+##### [*github repo*](https://github.com/christiecamp/starry-cellar)
 
-[*video demos*]()
+##### **video demos**:
+  * ##### [*category demo*]()
 
-#
+  * ##### [*product demo*]() 
+
+  *  ##### [*tag demo*]()
 
 ### ![connect](./aurora-lights/branding/7.png)
 
