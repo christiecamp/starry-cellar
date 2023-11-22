@@ -35,9 +35,26 @@
 
   ### ![overview](./aurora-lights/branding/1.png)
 
-`STARRY CELLAR STUFF` is an e-commerce site that utilizes an [Express.js](https://www.npmjs.com/package/inquirer) RESTful API which uses [Sequelize](https://www.npmjs.com/package/sequelize) ORM to handle data storage and retriveal.
+`STARRY CELLAR STUFF` is an e-commerce site that utilizes an [Express.js](https://expressjs.com/) RESTful API which uses [Sequelize](https://www.npmjs.com/package/sequelize) ORM to handle data storage and retriveal.
 * [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect `STARRY CELLAR STUFF's` Express RESTful API to a MySQL *database*.
 * [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data.
+
+### ![user-story](./aurora-lights/branding/9.png)
+<p align="center">
+  <img src="./aurora-lights/branding/user-story.png"/>
+</p>
+
+### ![acceptance-criteria](./aurora-lights/branding/10.png)
+<p align="center">
+  <img src="./aurora-lights/branding/ac.png"/>
+</p>
+
+### ![borea-list](./aurora-lights/branding/11.png)
+<p align="center">
+  <img src="./aurora-lights/branding/borea-list.png"/>
+</p>
+
+#
 
 ### ![installation](./aurora-lights/branding/2.png)
 
@@ -48,10 +65,26 @@ The application is invoked using the following commands:
 ```
 git clone https://github.com/christiecamp/starry-cellar.git
 ```
-
 **Update *.env* with your information**
 
+*Navigate to the command line and input:*
 
+```javascript
+npm i :: express, mysql2, dotenv --save, sequelize, -g nodemon --save-dev,
+```
+```javascript
+mysql -u root -p
+```
+```mysql
+SOURCE lib/db/schema.sql;
+quit
+```
+```javascript
+npm run seed
+```
+```javascript
+nodemon server
+```
 
 #
 
@@ -59,20 +92,68 @@ git clone https://github.com/christiecamp/starry-cellar.git
 
 **INSTRUCTIONS:**
 
+1. Open the Integrated Terminal and follow the [installation](#installation) guidelines
+
+2. Interact with STARRY CELLAR STUFF's back end with [Insomnia](https://www.npmjs.com/package/inquirer/v/8.2.4) by testing the below:
+      * GET all categories, products, tags
+      * GET category, product, tag by 'id'
+      * CREATE category, product, tag
+      * UPDATE category, product, tag
+      * DELETE category, product, tag
+
+    > view [demo vides](#demo) for assistance
+
+
+
 #
 
-### ![borea-list](./aurora-lights/branding/11.png)
-<p align="center">
-  <img src="./aurora-lights/branding/borea-list.png"/>
-</p>
+### ![screenshot](./aurora-lights/branding/12.png)
+![screenshot](./aurora-lights/demos/ss.png)
 
+### ![demo](./aurora-lights/branding/13.png)
+![demo](./aurora-lights/demos/demo.gif)
+
+### ![testing](./aurora-lights/branding/8.png)
+![testing](./aurora-lights/demos/testing.png)
+
+### ![sources](./aurora-lights/branding/4.png)
+
+Here's a list of technologies used:
+
+1. [Node.js](https://nodejs.org/en) - is an open-source, cross-platform JavaScript runtime environment.
+
+2. [Express.js](https://www.npmjs.com/package/inquirer/v/8.2.4) - the NPM package that provides an easy way to capture user input in your Node. js command line interface applications.
+
+3. [MySQL2](https://www.npmjs.com/package/mysql2) - MySQL is a relational database management system based on SQL – Structured Query Language.
+
+4. [Dotenv](https://www.npmjs.com/package/dotenv) - a zero-dependency module that loads environment variables from a .env file into `process.env`.
+
+5. [Sequelize](https://sequelize.org/) - a Node.js based `Object Relational Mapper` that makes it easy to work with **MySQL databases**. An *Object Relational Mapper* performs functions like handling database records by representing the data as objects.
+
+6. [Nodemon](https://www.npmjs.com/package/nodemon) - a Node.js tool that helps develop applications by automatically restarting the node application when file changes in the directory are detected.
+
+7. [Insomnia](https://insomnia.rest/) - an open source desktop application that assists in designing, debugging, and testing APIs (specifically in this instance, HTTP-based RESTful APIs).
+
+
+### ![license](./aurora-lights/branding/5.png)
+
+[MIT License](./LICENSE)
+
+
+### ![links](./aurora-lights/branding/6.png)
+
+[GitHub Repository](https://github.com/christiecamp/starry-cellar)
+
+[Video Demo]()
 
 #
 
-[![Github Badge](https://img.shields.io/badge/christiecamp-skyblue.svg?&logo=Github&logoColor=white)](https://github.com/christiecamp/bear-taker)
+### ![connect](./aurora-lights/branding/7.png)
+
+[![Github Badge](https://img.shields.io/badge/christiecamp-purple.svg?&logo=Github&logoColor=white)](https://github.com/christiecamp/bear-taker)
 
 <a href="mailto:christiecamphoto@gmail.com">
-<img src="https://img.shields.io/badge/gmail-lavender.svg?&logo=Gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/gmail-pink.svg?&logo=Gmail&logoColor=white" />
 </a>
 
 
