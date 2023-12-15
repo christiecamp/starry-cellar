@@ -231,7 +231,7 @@ Here's a list of technologies used:
 
 ### ![connect](./aurora-lights/branding/7.png)
 
-[![Github Badge](https://img.shields.io/badge/christiecamp-purple.svg?&logo=Github&logoColor=white)](https://github.com/christiecamp/bear-taker)
+[![Github Badge](https://img.shields.io/badge/christiecamp-purple.svg?&logo=Github&logoColor=white)](https://github.com/christiecamp/starry-cellar)
 
 <a href="mailto:christiecamphoto@gmail.com">
 <img src="https://img.shields.io/badge/gmail-lightblue.svg?&logo=Gmail&logoColor=white" />
